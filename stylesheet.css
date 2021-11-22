@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-body {
-    background-color: #02151f;
+html {
+    background-color: #26272e;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 #title {
@@ -12,4 +15,10 @@ body {
     font-weight: 900;
     font-size: 72px;
     color: white;
+}
+
+#salter-image {
+    position: absolute;
+    left: -100px;
+    top: -100px;
 }
