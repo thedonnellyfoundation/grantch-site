@@ -35,12 +35,11 @@ window.setInterval(function() {
     vx += dx * ACCELERATION;
     vy += dy * ACCELERATION;
 
-    vx /= FRICTION;
-    vy /= FRICTION;
-
     x += vx;
     y += vy;
-
+    
+    vx /= FRICTION;
+    vy /= FRICTION;
     if (vx < -1.23) {
         flipHorizontally(salterImage, x - 52, y - 69);
     }
